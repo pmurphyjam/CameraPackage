@@ -267,7 +267,7 @@ public struct MediaPicker<AlbumSelectionContent: View, CameraSelectionContent: V
             }
         }
         .padding(12)
-        .background(Color(uiColor: .systemGroupedBackground))
+        .background(Color(uiColor:.systemBackground))
     }
 
     func cameraBinding() -> Binding<Bool> {

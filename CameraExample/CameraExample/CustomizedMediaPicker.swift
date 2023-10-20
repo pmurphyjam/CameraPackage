@@ -30,9 +30,10 @@ struct CustomizedMediaPicker: View {
         MediaPicker(
             isPresented: $isPresented,
             onChange: { medias = $0 },
-            albumSelectionBuilder: { _, albumSelectionView, _ in
+            albumSelectionBuilder: { defaultHeaderView, albumSelectionView, isInFullScreen in
                 VStack {
                     headerView
+                    defaultHeaderView
                     albumSelectionView
                     Spacer()
                     footerView
