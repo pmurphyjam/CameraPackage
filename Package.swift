@@ -1,10 +1,5 @@
-//
-//  Package.swift
-//  CameraPackage
-//
-//  Created by Pat Murphy on 10/20/23.
-//  The MIT License (MIT)
-//
+// swift-tools-version: 5.7
+// The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
 

@@ -6,7 +6,7 @@
 //  The MIT License (MIT)
 //
 import XCTest
-@testable import ExyteMediaPicker
+@testable import CameraPackage
 
 final class TimeIntervalTests: XCTestCase {
     let testLocale: Locale = Locale(identifier: "en_US")

@@ -1,5 +1,5 @@
 
-/
+//
 //  ThumbnailPlaceholder.swift
 //  CameraPackage
 //

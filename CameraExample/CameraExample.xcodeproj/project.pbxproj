@@ -15,6 +15,7 @@
 		5BFF68522AD68B990099D333 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFF68492AD68B990099D333 /* AppDelegate.swift */; };
 		5BFF68532AD68B990099D333 /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFF684A2AD68B990099D333 /* Application.swift */; };
 		5BFF68542AD68B990099D333 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFF684B2AD68B990099D333 /* ContentView.swift */; };
+		673E31452AE2FCFF00B36B3D /* CameraPackage in Frameworks */ = {isa = PBXBuildFile; productRef = 673E31442AE2FCFF00B36B3D /* CameraPackage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				673E31452AE2FCFF00B36B3D /* CameraPackage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,6 +110,7 @@
 			);
 			name = CameraExample;
 			packageProductDependencies = (
+				673E31442AE2FCFF00B36B3D /* CameraPackage */,
 			);
 			productName = MediaPickerExample;
 			productReference = 5BFF68312AD689C80099D333 /* CameraExample.app */;
@@ -137,6 +140,8 @@
 				Base,
 			);
 			mainGroup = 5BFF68282AD689C80099D333;
+			packageReferences = (
+			);
 			productRefGroup = 5BFF68322AD689C80099D333 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -380,6 +385,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		673E31442AE2FCFF00B36B3D /* CameraPackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CameraPackage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5BFF68292AD689C80099D333 /* Project object */;
 }
